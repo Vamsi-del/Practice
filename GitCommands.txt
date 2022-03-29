@@ -1,0 +1,20 @@
+git config --global user.name "<Enter User Name>"  ---> To add an user name
+git config --global user.email "<Enter Email>"     ---> To add email
+git config --global user.name                      ---> To get User Name that you have entered
+git config --global --edit                         ---> To edit Name and Email... etc
+git init                                           ---> To initialize the git
+git status                                         ---> To check the status of the current remote directory like is there any file newly created or modified
+git add .                                          ---> To add all the file to staging
+git add <File Name>                                ---> To add individual File to staging
+git commit -m <Message of Commit>                  ---> To add file to the committing stage
+git log                                            ---> To check the recent commits
+git branch <branch name>                           ---> This Creates new branch
+git branch                                         ---> Shows all branches in a repository
+git branch -M <branch name>                        ---> Swiches the branches
+git checkout <Branch Name>                         ---> Moves to the particular branch
+git checkout -b <Branch Name>                      ---> Create a new branch and Moves to that new branch
+git merge <Branch Name>                            ---> It merges two branch changes (eg: if dev1 branch has a new changes commited and want to move those changes even to dev2 branch then "we need to switch to dev2 branch" and use "git merge dev1")
+touch .gitignore                                   ---> Creates a gitignore file
+git remote add origin <git URL>                    ---> 
+git push -u origin <Branch Name>                   ---> Pushes the changes to repository on particular Branch
+git push                                           ---> Pushes the Branch to default one(HP@DESKTOP-JD1QP40 MINGW64 /f/Practice Project/html (dev) --> dev is inside bracket so changes will be commited to dev branch)
